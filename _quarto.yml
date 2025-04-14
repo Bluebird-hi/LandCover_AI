@@ -5,44 +5,50 @@ project:
     port: 3333
 
 website:
-  title: "MUSA 550"
+  page-navigation: true
+  title: "MUSA 695"
   page-footer:
-    left: "delmelle@gmail.com"
-    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: "lumx@upenn.edu"
+    right: 'This page is built with 🐤 and [Quarto](https://quarto.org/).'
+    background: "#FAF4EC"
 
   sidebar:
-    logo: "images/course-icon.png"
+    background: "#FAF4EC"
+    logo: "images/logo.png"
     pinned: true
     align: center
     tools:
-      - icon: globe
-        href: https://www.design.upenn.edu/people/eric-delmelle
-        text: "Personal Website"
+      - icon: person-fill
+        href: https://storymaps.arcgis.com/stories/2f194999660c4b699a11bbb040190d93
+        text: "Luming's Portfolio"
       - icon: github
-        href: https://github.com/MUSA-550-Fall-2024/
-        text: "MUSA 550 GitHub"
-      - icon: twitter
-        href: https://twitter.com/ericdelmelle
-        text: "Eric Delmelle Twitter"
+        href: https://github.com/Bluebird-hi
+        text: "Luming's GitHub"
+      - icon: linkedin
+        href: https://www.linkedin.com/in/luming-xu/
+        text: "Luming's Linkedin"
     style: "docked"
     search: true
     collapse-level: 2
     contents:
-      - href: index.qmd
-        text: Welcome
-      - about.qmd
-      - section: analysis/index.qmd
-        contents:
-          - analysis/1-python-code-blocks.qmd 
-          - analysis/2-static-images.ipynb
-          - analysis/3-altair-hvplot.ipynb
-          - analysis/4-folium.ipynb
+      - href: 1-index.qmd
+        text: Introduction
+      - href: 2-mapping.ipynb
+        text: Mapping NPS Lands
+      - href: analysis/2-static-images.ipynb
+        text: Clustering Analysis
+          
 
 format:
   html:
-    highlight-style: solarized
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
     code-copy: true
     code-overflow: wrap
     toc: true
+
+freeze: auto
+
+editor: visual

@@ -1,0 +1,26 @@
+---
+title: "Reimagining U.S. National Parks Through AI Classification"
+subtitle: "Large Language Models (LLMs) & Clustering Analysis"
+---
+## Objective
+
++ 
+
+## In Brief
+
++ 
+
+## Author
+
+<div style="display: flex; gap: 10px; align-items: flex-start;">
+
+<img src="images/luming.jpg" alt="Luming Xu" style="width: 170px; border-radius: 10px;">
+
+<div>
+  <p>**Luming Xu**</span></p>
+
+  - Master of Urban Spatial Analytics'25 at UPenn
+  - I'm interested in smart city and urban vitality :)
+</div>
+
+</div>
