@@ -1,1 +1,6 @@
 /.quarto/
+data/MyProject/
+data/naip_2017_philly/
+data/landcover_2018_philly.tif
+data/masked_2017_philly.tif
+data/mosacied_2017_philly.tif

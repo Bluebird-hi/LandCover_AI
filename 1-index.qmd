@@ -1,6 +1,6 @@
 ---
-title: "Reimagining U.S. National Parks Through AI Classification"
-subtitle: "Large Language Models (LLMs) & Clustering Analysis"
+title: "Exploring Land Cover Change Around the Philadelphia Chinatown Stitch"
+subtitle: "Machine Learning & GPU Programming"
 ---
 ## Objective
 

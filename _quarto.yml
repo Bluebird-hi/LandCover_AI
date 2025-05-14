@@ -14,7 +14,7 @@ website:
 
   sidebar:
     background: "#FAF4EC"
-    logo: "images/logo.png"
+    logo: "images/Stitch icon.png"
     pinned: true
     align: center
     tools:
@@ -32,11 +32,18 @@ website:
     collapse-level: 2
     contents:
       - href: 1-index.qmd
-        text: Introduction
-      - href: 2-mapping.ipynb
-        text: Mapping NPS Lands
-      - href: analysis/2-static-images.ipynb
-        text: Clustering Analysis
+        text: About Page
+      - section: Reproducible Analysis
+        contents:
+          - 1.data-preparation.ipynb
+          - 2.model-training.ipynb
+          - 3.PLOT.ipynb
+      - section: Appendix
+        contents:
+          - href: FinalPresentation_LumingXu.pdf
+            text: Final Presentation
+          - href: naip-studyarea.ipynb
+            text: NAIP Preparation
           
 
 format:
